@@ -67,7 +67,7 @@ st.set_page_config(page_title="Personalized English Tutor", layout="wide")
 st.title("Personalized English Tutor")
 st.markdown("Improve your English with AI-powered feedback, document analysis, and learning recommendations.")
 
-tab1, tab2, tab3 = st.tabs(["📘 Writing Practice", "📄 Document Analyzer", "💬 Chat Tutor"])
+tab1, tab2, tab3 = st.tabs(["* Writing Practice", "* Document Analyzer", "* Chat Tutor"])
 
 # Writing Practice
 with tab1:
