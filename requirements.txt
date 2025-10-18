@@ -1,9 +1,9 @@
 streamlit==1.50.0
 pdfplumber==0.10.0
+pdfminer.six==20221105   # Needed by pdfplumber
+Pillow==11.3.0           # Needed by pdfplumber
 python-docx==0.8.11
-scikit-learn==1.7.2       # Compatible with Python 3.13
-google-generativeai==0.1.9
+scikit-learn==1.7.2       # Python 3.13 compatible
+google-generativeai==0.8.5 # Use latest version that supports Py 3.13
 python-dotenv==1.0.1
 spacy==3.8.7
-pdfminer.six==20221105    # Ensures pdfplumber dependency
-Pillow==11.3.0            # Ensures pdfplumber dependency
