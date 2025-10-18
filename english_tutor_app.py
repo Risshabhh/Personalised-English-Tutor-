@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load API Key and Models
 load_dotenv()  # Optional: loads GOOGLE_API_KEY from .env
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or "AIzaSyBizQv0q-6AnozWIzCd--cIv-Rp7X-FJ74"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not GOOGLE_API_KEY:
     st.error("Google API key is missing! Please set GOOGLE_API_KEY.")
