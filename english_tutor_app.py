@@ -34,12 +34,8 @@ else:
     genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load spaCy English model
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    import subprocess
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
+import spacy
+nlp = spacy.load("en_core_web_sm")
 
 # ---------------------------
 # 2️⃣ Helper Functions
